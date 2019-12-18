@@ -1,16 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Blockchain GSU Coming Soon!
-        </p>
-      </header>
+    <div className="container">
+      <Navbar />
+      <Footer />
     </div>
   );
 }
